@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'roboto';
+src: url('/fonts/RobotoSlab-Regular.ttf') format('truetype'),
+url('/fonts/RobotoSlab-Bold.ttf') format('truetype'),
+url('/fonts/RobotoSlab-Light.ttf') format('truetype');
+font-weight: lighter, normal, bold;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('/fonts/Poppins-Regular.ttf') format('truetype'),
+     url('/fonts/Poppins-Light.ttf') format('truetype'),
+     url('/fonts/Poppins-Medium.ttf') format('truetype'),
+     url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+     font-weight: lighter, normal, bold;
+    font-style: normal;
+}

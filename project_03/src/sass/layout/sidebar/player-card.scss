@@ -1,0 +1,35 @@
+.sidebar__player-card {
+    text-align: center;
+    padding-top: 38px;
+    margin-bottom: 43px;
+}
+
+.sidebar__player-card-discription-name, .sidebar__player-card-photo{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.sidebar__player-card-rewards-img {
+    margin-right: 10px;
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.sidebar__player-card-discription-level {
+    font-size: 13px;
+    color: $secondary-font-color;
+    font-weight: 400;
+}
+
+.sidebar__player-card-img-container {
+    margin-bottom: 21px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url('/images/sidebar/player-card/profile.png');
+}

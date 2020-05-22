@@ -1,0 +1,17 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './typography/font-size.scss';
+@import './typography/fonts.scss';
+@import './helpers/placeholders.scss';
+@import './helpers/variables.scss';
+@import './layout/main/layout.scss';
+@import './components/navmenu.scss';
+@import './components/navbutton.scss';
+@import './layout/header/header.scss';
+@import './layout/main/section_1.scss';
+@import './layout/main/section_2.scss';
+@import './components/button-arrow.scss';
+@import './layout/main/section_3.scss';
+@import './layout/footer/footer.scss';

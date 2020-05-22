@@ -1,0 +1,25 @@
+.wrapper {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 979px) {
+    .wrapper {
+        font-size: 1.22rem;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .wrapper {
+        font-size: 1rem;
+    }
+    .section-1__title {
+        font-size: 3rem;
+    }
+    .section-1__link {
+        font-size: 2rem;
+    }
+    .section-2__text {
+        font-size: 2.5rem;
+    }
+}
+

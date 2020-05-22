@@ -1,0 +1,88 @@
+.sidebar__navigation-list {
+margin: 0;
+padding: 0;
+
+&-unit {
+    list-style: none;
+    &:hover .sidebar__games-list {
+        display: block;
+                }
+    margin: 0 0 34px 0;
+    &-content {
+        height: 36px;
+        border-left: solid 2px $sidebar-bg-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:hover {
+            border-left: solid 2px $notification-color;
+            background-image: url('/images/sidebar/list-gradient.png');
+        }
+    }
+
+    &:last-of-type {
+        margin: 0;
+    }
+    &-link {
+        height: min-content;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: $sidebar-navigation-color;
+        padding: 0 0 0 32px;
+
+        & svg {
+            margin: 0 15px 0 0;
+        }
+        &:hover {
+            color: $primary-font-color;
+        }
+        &:hover  .sidebar__navigation-list-unit-link-svg {
+            fill: $primary-font-color;
+        }
+
+
+    }
+
+}
+}
+
+.sidebar__navigation-list-unit-link-svg {
+    fill: $sidebar-navigation-color;
+}
+
+.sidebar__games-list {
+list-style: none;
+display: none;
+padding: 0;
+margin: 0;
+&-unit {
+height: 37px;
+display: flex;
+align-items: center;
+margin-left: 69px;
+}
+&-unit-link {
+    text-decoration: none;
+    color: $sidebar-navigation-color;
+    &:hover {
+        color: $primary-font-color;
+    }
+}
+}
+
+.sidebar__navigation-list-unit-count {
+    width: 16px;
+    height: 16px;
+    background-color: $button-color;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    position: relative;
+    border-radius: 2px;
+    margin: 0 15px 0 0;
+    &-number {
+        @extend %absolute-center;
+        color: $sidebar-navigation-color;
+    }
+}

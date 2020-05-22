@@ -1,0 +1,36 @@
+.header-drop-menu__list {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: -35px;
+    &-unit {
+        width: 100px;
+        height: 25px;
+        background-color: $sidebar-bg-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-link {
+            text-decoration: none;
+            color: $primary-font-color;
+        }
+    
+}
+}
+
+.header-drop-menu {
+    margin-right: 14px;
+    &:hover > .header-drop-menu__list {
+        display: block;
+    }
+}
+
+.header-drop-menu__button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.logo-container {
+    position: relative;
+}

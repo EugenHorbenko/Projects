@@ -1,0 +1,19 @@
+.main-page {
+    width: 100%;
+    background-color: $main-bg-color;
+    border-radius: 0 0 10px 0;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.main-content-container {
+    width: 94%;
+    margin: auto;
+    padding: 54px 0 0 0;
+}
+
+.recommended-games {
+    margin-bottom: 50px;
+}

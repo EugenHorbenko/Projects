@@ -1,0 +1,9 @@
+.wrapper {
+    font-family: 'open sans';
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) and (max-width: 979px) {
+    min-width: 640px;
+}

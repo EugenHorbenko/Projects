@@ -1,0 +1,36 @@
+.ratingholder {
+    width: 100px;
+    position: relative;
+    padding-left: 5px;
+ }
+ 
+.ratingholder .passiveratingholder {
+    position: relative;
+    width: 71px;
+    height: 15px;
+    display: block;
+ }
+
+.ratingholder .passiveratingholder > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: 71px;
+ }
+
+ .ratingbg {
+    background-image: url('/images/Star_rating_1_of_5.png');
+    width: 71px;
+ }
+
+ .ratingmask {
+    background-image: url('/images/Star_rating_5_of_5.png');
+ }
+.ratenumber {
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  font-size: 12px;
+}

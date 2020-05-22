@@ -1,0 +1,38 @@
+.page-header {
+background-color: $header-navigation;
+color: $primary-text;
+
+}
+
+.navigation {
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 979px) {
+    .navigation__span {
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 30px;
+    }
+    .navigation {
+        height: 74px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .navigation__span {
+display: none;
+    }
+    .navigation {
+        height: 96px;
+    }
+}

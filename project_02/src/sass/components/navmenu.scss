@@ -1,0 +1,100 @@
+.list-icon {
+    fill: $nav-icon;
+width: 11px;
+height: 16px;
+}
+.navigation__list {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    top: 37px;
+    right: 0px;
+    
+        &-unit {
+    height: 37px;
+    border: solid 1px $header-menu;
+    background-color: $header-navigation;
+    position: relative;
+            &-link {
+                text-transform: uppercase;
+                width: max-content;
+                @extend %absolute-center;
+                text-decoration: none;
+                color: $primary-text;
+                &:focus {
+                    color: $secondary-text;
+                }
+            }
+    }
+}
+
+.navigation-container {
+    width: 37px;
+    background-color: $header-menu;
+    height: 37px;
+    vertical-align: middle;
+    position: relative;
+    &:hover .navigation__list {
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 979px) {
+    .navigation-container {
+        width: 82px;
+        height: 74px;
+    }
+    .list-icon {
+    width: 20px;
+    height: 21px;
+    }
+    .navigation__list {
+        width: 250px;
+        top: 74px;
+            &-unit {
+        height: 74px;
+                }
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .navigation-container {
+        background-color: transparent;
+        width: 100%;
+        position: static;
+        height: min-content;
+        &:hover .navigation__list {
+            display: flex;
+        }
+    }
+
+    .navigation__list {
+        display: block;
+        width: 100%;
+        position: static;
+        display: flex;
+        padding-left: 40px;
+        &-unit {
+            border: none;
+            margin-right: 30px;
+            background-color: transparent;
+            position: static;
+            height: min-content;
+
+            &:last-child {
+                margin-right: 0;
+            }
+            &-link {
+                position: static;
+                vertical-align: middle;
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+}

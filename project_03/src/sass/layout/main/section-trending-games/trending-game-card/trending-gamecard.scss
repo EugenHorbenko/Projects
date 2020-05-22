@@ -1,0 +1,146 @@
+.trending-game-card {
+    width: 257px;
+    height: 135px;
+    background-color: $header-bg-color;
+    position: relative;
+    box-shadow: 0px 0px 5px 2px rgba(212,215,218,1);
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__game-info {
+        display: flex;
+        padding: 13px 0 0 14px;
+        align-items: center;
+    }
+    &__game-icon-container {
+        margin: 0 11px 0 0;
+    }
+}
+
+.trending-game__title {
+    margin: 0 0 6px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.trending-game__button {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.trending-game__active-players-profile {
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    &--5 {
+        width: 31px;
+        height: 31px;
+        background-color: #7c4dff;
+        border-radius: 50%;
+        border: solid 2px #ffffff;
+    }
+    &--g1-1 {
+        background-image: url('/images/main/trending-games/Block-craft_card/1.png');
+    }
+    &--g1-2 {
+        background-image: url('/images/main/trending-games/Block-craft_card/2.png');
+    }
+    &--g1-3 {
+        background-image: url('/images/main/trending-games/Block-craft_card/3.png');
+    }
+    &--g1-4 {
+        background-image: url('/images/main/trending-games/Block-craft_card/4.png');
+    }
+    &--g2-1 {
+        background-image: url('/images/main/trending-games/3d-pool_card/1.png');
+    }
+    &--g2-2 {
+        background-image: url('/images/main/trending-games/3d-pool_card/2.png');
+    }
+    &--g2-3 {
+        background-image: url('/images/main/trending-games/3d-pool_card/3.png');
+    }
+    &--g2-4 {
+        background-image: url('/images/main/trending-games/3d-pool_card/4.png');
+    }
+    &--g3-1 {
+        background-image: url('/images/main/trending-games/Gunship-strike_card/1.png');
+    }
+    &--g3-2 {
+        background-image: url('/images/main/trending-games/Gunship-strike_card/2.png');
+    }
+    &--g3-3 {
+        background-image: url('/images/main/trending-games/Gunship-strike_card/3.png');
+    }
+    &--g3-4 {
+        background-image: url('/images/main/trending-games/Gunship-strike_card/4.png');
+    }
+    &--g4-1 {
+        background-image: url('/images/main/trending-games/Toy-truck-rally_card/1.png');
+    }
+    &--g4-2 {
+        background-image: url('/images/main/trending-games/Toy-truck-rally_card/2.png');
+    }
+    &--g4-3 {
+        background-image: url('/images/main/trending-games/Toy-truck-rally_card/3.png');
+    }
+    &--g4-4 {
+        background-image: url('/images/main/trending-games/Toy-truck-rally_card/4.png');
+    }
+
+    &--zIndex-2 {
+        left: 22px;
+    }
+    &--zIndex-3 {
+        left: 44px;
+    }
+    &--zIndex-4 {
+        left: 66px;
+    }
+    &--zIndex-5 {
+        left: 88px;
+    }
+}
+
+.trending-game__active-players-profiles {
+    display: flex;
+    position: relative;
+}
+.trending-game__active-players-profile-link {
+    position: absolute;
+}
+.trending-game__active-players-profile-svg {
+    @extend %absolute-center;
+}
+
+.trending-game__active-players {
+    padding-left: 14px;
+    position: relative;
+    &-text {
+        position: absolute;
+        right: 19px;
+        top: 0.5em;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+}
+
+.trending-game__disription {
+    font-size: 13px;
+    color: $secondary-font-color;
+}
+
+@media screen and (max-width: 800px) {
+    .trending-game-card {
+        &:nth-last-of-type(n+3) {
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.dashboard-header {
+    height: $header-height;
+    box-shadow: 0px 2px 2px 0px #e8ecee;
+position: relative;
+}
+
+.header-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.search-input {
+    width: 350px;
+    height: 26px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #ebe6f7;
+    padding: 0 20px 0 40px;
+    font-size: 13px;
+}
+
+.search-input-container {
+    position: relative;
+}
+
+.search-img {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 800px) {
+    .search-input {
+        width: 200px;
+    }
+}

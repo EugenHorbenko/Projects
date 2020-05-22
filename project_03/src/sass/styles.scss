@@ -1,0 +1,24 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './typography/fonts.scss';
+@import './helpers/placeholders.scss';
+@import './helpers/variables.scss';
+@import './components/view-button.scss';
+@import './layout/header/header.scss';
+@import './layout/main/main.scss';
+@import './layout/main/main-filter.scss';
+@import './layout/main/section-recomended/gamecard/gamecard.scss';
+@import './layout/main/section-recomended/gamecard-section.scss';
+@import './layout/main/section-trending-games/tranding-games-section.scss';
+@import './layout/main/section-trending-games/trending-game-card/trending-gamecard.scss';
+@import './components/view-button.scss';
+@import './layout/header/logo.scss';
+@import './layout/header/profile-menu.scss';
+@import './components/ratingholder.scss';
+@import './wrapper.scss';
+@import './layout/header/drop-menu.scss';
+@import './layout/sidebar/sidebar.scss';
+@import './layout/sidebar/player-card.scss';
+@import './layout/sidebar/sidebar-navigation.scss';

@@ -1,0 +1,75 @@
+.arrow-right {
+    fill: $arrow-color;
+    @extend %absolute-center;
+}
+
+.button-arrow, .arrow-right {
+    &--section-1 {
+        width: $section-1-arrow-width-sm;
+        height: $section-1-arrow-height-sm;
+    }
+    &--section-2 {
+        width: $section-2-arrow-width-sm;
+        height: $section-2-arrow-height-sm;
+    }
+    &--section-3 {
+        width: $section-3-arrow-width-sm;
+        height: $section-3-arrow-height-sm;
+    }
+}
+.button-arrow {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    &:hover .arrow-right {
+        transition: .2s;
+        fill: $secondary-text;
+    }
+    &:focus {
+        outline: none;
+    }
+    &--section-1 {
+        position: relative;
+        right: 5px;
+    }
+    &--section-2 {
+        @extend %absolute-center;
+    }
+        &--section-3 {
+        @extend %absolute-center;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 979px) {
+    .button-arrow, .arrow-right {
+        &--section-1 {
+            width: $section-1-arrow-width-m;
+            height: $section-1-arrow-height-m;
+        }
+        &--section-2 {
+            width: $section-2-arrow-width-m;
+            height: $section-2-arrow-height-m;
+        }
+        &--section-3 {
+            width: $section-3-arrow-width-m;
+            height: $section-3-arrow-height-m;
+        }
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .button-arrow, .arrow-right {
+        &--section-1 {
+            width: $section-1-arrow-width-l;
+            height: $section-1-arrow-height-l;
+        }
+        &--section-2 {
+            width: $section-2-arrow-width-l;
+            height: $section-2-arrow-height-l;
+        }
+        &--section-3 {
+            width: $section-3-arrow-width-l;
+            height: $section-3-arrow-height-l;
+        }
+    }
+}

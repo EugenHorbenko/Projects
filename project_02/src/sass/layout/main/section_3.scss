@@ -1,0 +1,29 @@
+.section-3 {
+    &__1 {
+        height: 275px;
+        background-color: $section-3__1-bg;
+        position: relative;
+    }
+}
+.section-3__img {
+    width: 100%;
+}
+
+@media screen and (min-width: 640px) and (max-width: 979px) {
+    .section-3 {
+        &__1 {
+            height: 550px;
+        }
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .section-3 {
+        display: flex;
+        justify-content: space-between;
+        &__1, &__2, &__3 {
+            width: calc(100%/3);
+            height: auto;
+        }
+    }
+}

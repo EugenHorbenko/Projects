@@ -1,0 +1,31 @@
+.logo__circle {
+height: 8px;
+width: 8px;
+border-radius: 50%;
+margin-right: 4px;
+&:last-of-type {
+    margin-right: 0;
+}
+&--1 {
+    background-color: #7c4dff;
+}
+&--2 {
+    background-color: #a8a8a8;
+}
+&--3 {
+    background-color: #1de9b6;
+}
+
+}
+.logo__circle-container {
+    display: flex;
+    width: max-content;
+    margin-bottom: 4px;
+}
+
+.logo__name {
+    letter-spacing: 6px;
+    font-family: 'poppins', 'roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 12px;
+}
