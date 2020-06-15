@@ -1,0 +1,25 @@
+.hexagon {
+ position: relative;
+ }
+
+ .box {
+    
+    width: 143px;
+    height: 90px;
+    background-color: $hexacolor;
+    border-radius: 10px;
+ }
+ 
+ .box1 {
+   position: absolute;
+    transform: rotate(60deg);
+ }
+ 
+ .box2 {
+   position: absolute;
+    transform: rotate(-60deg);
+ }
+ 
+ .hexagon {
+    margin-right: 22px;
+ }

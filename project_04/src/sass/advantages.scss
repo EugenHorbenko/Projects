@@ -1,0 +1,21 @@
+.wrapper-advantages {
+    background-color: $advantages-bg;
+
+}
+
+.advantages {
+    padding-bottom: 99px;
+    color: $sexondary-text-color;
+}
+
+.advantages__list {
+    margin: 0;
+    list-style: none;
+    @extend %flex-between;
+    padding: 76px 0 0 0;
+    
+    &-unit {
+        text-align: center;
+        max-width: 32%;
+    }
+}

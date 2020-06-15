@@ -1,0 +1,32 @@
+.page-header {
+    @extend %flex-between;
+    align-items: center;
+    margin-bottom: 175px;
+    padding-top: 65px;
+}
+.logo {
+    width: 44%;
+}
+
+.nav-menu {
+    width: 56%;
+    &-list {
+        margin: 0;
+        padding: 0;
+        @extend %flex-between;
+        list-style: none;
+        &__unit-link {
+            text-decoration: none;
+            color: $prime-text-color;
+            &:hover {
+                position: relative;
+                @extend %underline;
+            }
+        }
+    }
+}
+
+.nav-menu-list__unit:last-child {
+    font-weight: bold;
+}
+

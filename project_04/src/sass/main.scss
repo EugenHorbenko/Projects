@@ -1,0 +1,19 @@
+.wrapper-home {
+    background-image: url(../images/main_page/main_page.png);
+    background-repeat: no-repeat;
+}
+
+.wrapper-wide {
+    max-width: $main-width;
+    margin: 0 auto;
+
+    font-family: "open sans";
+    font-size: 18px;
+}
+
+.wrapper-narrow {
+    max-width: $secondary-width;
+    margin: 0 auto;
+
+}
+

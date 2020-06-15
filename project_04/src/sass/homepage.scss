@@ -1,0 +1,20 @@
+.homepage {
+    @extend %flex-between;
+    margin-bottom: 128px;
+}
+
+.homepage-description {
+    padding-top: 25px;
+    max-width: 51%;
+    color: $prime-text-color;
+}
+
+.homepage-title {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 42px;
+}
+
+.homepage-title-wrapper {
+    margin-bottom: 58px;
+}

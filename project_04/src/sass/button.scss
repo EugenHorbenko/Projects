@@ -1,0 +1,43 @@
+.button {
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    color: $prime-text-color;
+    cursor: pointer;
+}
+
+.homepage__button {
+    width: 170px;
+    &:first-child{
+        margin-right: 14px;
+    }
+}
+
+.between-button-circle {
+    height: 29px;
+    width: 29px;
+    background-color: $prime-text-color;
+    border-radius: 50%;
+    color: #000000;
+    text-align: center;
+    @extend %absolute-center;
+}
+.between-button-circle__text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homepage__buttons {
+    max-width: max-content;
+    position: relative;
+} 
+
+.button--green {
+    background-color: $button-green;
+}
+
+.button--blue {
+    background-color: $button-blue;
+}

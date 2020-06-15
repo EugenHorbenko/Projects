@@ -1,0 +1,62 @@
+
+.wrapper-laptop {
+    background-image: url(../images/laptop/laptop-bg.png);
+    background-repeat: no-repeat;
+}
+
+.laptop {
+    color: $prime-text-color;
+    text-align: center;
+    margin-bottom: 173px;
+}
+
+.laptop__title {
+    font-size: 24px;
+    color: $prime-text-color;
+    margin: 0;
+    font-weight: normal;
+    padding: 62px 0 5px 0;
+}
+
+.laptop__img-wrapper {
+    position: relative;
+    bottom: -90px;
+}
+
+.arrow {
+    fill: #ffffff;
+    cursor: pointer;
+    &:active {
+        fill: $underline-color;
+    }
+}
+
+.arrow--right {
+    
+}
+
+.arrow--left {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.laptop__button-arrow {
+    position: absolute;
+    top: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    &:hover {
+        @extend %transition;
+        transform: scale(1.2);
+    }
+}
+
+.laptop__button-arrow--right {
+    right: 0;
+}
+
+.laptop__button-arrow--left {
+    left: 0;
+}
+

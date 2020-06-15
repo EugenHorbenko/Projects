@@ -1,0 +1,27 @@
+.about_us {
+    color: $sexondary-text-color;
+}
+
+.about_us-text {
+    max-width: 64.46%;
+}
+
+.about_us-graph {
+    max-width: 25.3%;
+    &__img:first-child {
+        padding-right: 10px;
+    }
+}
+
+.about_us-text-wrapper {
+    @extend %flex-between;
+    margin-bottom: 126px;
+}
+
+.about_us-text__title {
+margin: 0 0 20px 0;
+}
+
+.advantages-wrapper {
+    max-width: $main-width;
+}

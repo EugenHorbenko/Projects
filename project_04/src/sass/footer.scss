@@ -1,0 +1,130 @@
+.wrapper-footer {
+    background-color: $sexondary-text-color;
+}
+
+.footer-content {
+    @extend %flex-between;
+    color: $footer-span;
+    padding: 106px 0 117px 0;
+}
+
+.footer-content__information {
+    padding-right: 15px;
+}
+
+.footer-content__information-img {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-content__information__title {
+    margin: 0 0 28px 0;
+}
+
+.footer-content__information__description {
+    margin-bottom: 37px;
+}
+.footer-content__information-img {
+    margin-bottom: 16px;
+}
+
+.text-input {
+    height: 42px;
+    padding: 0 0 0 7px;
+}
+
+.text-input--narrow {
+    width: 47.8%;
+}
+
+.text-input--wide {
+    width: 100%;
+}
+
+// .styled-select-subject {
+//     position: relative;
+// }
+// .styled-select-arrow {
+//     width: 38px;
+//     height: 32px;
+//     background-color: $underline-color;
+//     border-radius: 5px;
+//     position: absolute;
+//     right: 6px;
+//     top: 6px;
+// }
+
+.text-area {
+    background-color: $footer-span;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.text-input--wide {
+    background: transparent;
+    padding: 0 0 0 7px;
+    font-size: 18px;
+    color: grey;
+    line-height: 1;
+    -webkit-appearance: none;
+}
+
+.styled-select-subject {
+    position: relative;
+    height: 42px;
+    background-color: $footer-span;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    overflow: hidden; 
+    background: url(../images/footer/arrow.png) no-repeat 95%  #DDD;
+}
+
+.contact-text-area {
+    resize: none;
+    padding: 7px;
+}
+
+.footer-button-wrapper {
+    display: inline-block;
+position: absolute;
+right: 0;
+bottom: -14px;
+
+}
+
+.footer-button {
+    width: 172px;
+    &:nth-last-of-type(n+2) {
+        margin-right: 17px;
+    }
+}
+
+.form-wrapper {
+    position: relative;
+}
+
+.site-author {
+    color: $footer-span;
+    @extend %absolute-center;
+}
+
+.wrapper-footer-copyright {
+    background-color: $footer-bg-dark;
+    height: 158px;
+position: relative;
+}
+
+.footer-arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+    border-bottom: 29px solid $footer-bg-dark;
+    position: absolute;
+        top: -14px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+}

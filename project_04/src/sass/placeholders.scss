@@ -1,0 +1,33 @@
+%flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+%underline {
+    font-weight: bold;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+
+&::after {
+    display: block;
+    margin: auto;
+    width: 140%;
+    height: 3px;
+    position: absolute;
+    left: -20%;
+    background-color: $underline-color;
+    content: "";
+    margin-top: 18px;
+}
+}
+
+%transition {
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+
+%absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
