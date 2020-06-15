@@ -1,0 +1,156 @@
+.wrapper {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.timer-title {
+    text-align: center
+}
+
+.timer {
+    max-width: 600px;
+    background-color: #d04643;
+    border-radius: 6px;
+    color: #fff;
+    margin: auto;
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.time-button {
+    background: none;
+    border: solid 1px #ffffff;
+    width: 20px;
+    padding: 0;
+    height: fit-content;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.timer-button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
+.timer-button:hover {
+
+    background-color: #a73836;
+}
+
+.timer-button:first-of-type {
+    margin-right: 30px;
+}
+ 
+.buttons-container {
+
+    position: absolute;
+    right: 5px;
+    top: 5px;
+ }
+
+
+.clockface {
+    font-size: 45px;
+    width: 100px
+}
+
+.time-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.editor {
+    display: flex;
+}
+
+.editor__input {
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 3px 0 0 3px;
+    border: solid 1px grey;
+    outline: none;
+    padding-left: 20px;
+    letter-spacing: .08rem;
+}
+
+.editor-button {
+    height: 29px;
+    width: 30px;
+    border: solid 1px grey;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    border-left: none;
+}
+
+.todo {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.todo-list {
+    padding: 0;
+}
+
+.todo-list__item {
+list-style: square;
+
+}
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-button {
+    background-color: #ffffff;
+    border: none;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.todo-button-delete {
+
+    background-image: url(./img/bin.png);
+}
+
+.todo-button-edit {
+
+background-image: url(./img/edit.png);
+
+}
+
+.todo-button-priority {
+
+background-image: url(./img/rate.png);
+
+}
+

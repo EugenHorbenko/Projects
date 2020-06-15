@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h2 class="timer-title">Planning list</h2>
+    <section class="timer">
+        <div class="timer-container">
+        <div class="time-container">
+        <span class="clockface js-clockface">
+        </span>
+        </div>
+        <div class="buttons-container">
+        <button class="time-button js-plus-time-button">+</button>
+        <button class="time-button js-minus-time-button">-</button>
+    </div>
+
+        <button class="timer-button js-start-timer">СТАРТ</button>
+        <button class="timer-button js-stop-timer">СТОП</button>
+    </div>
+    </section>
+
+    <section class="todo">
+    <form  class="editor js-editor">
+        <input type="text" name="text" class="editor__input">
+        <button  class="editor-button" type="submit">+</button>
+    </form>
+    <ul class="todo-list js-todo-list">
+    </ul>
+   
+</section>
+</div>
+<script src="index.js" type="module"></script>
+<script src="js/timer.js" type="module"></script>
+<script src="js/todoList.js" type="module"></script>
+</body>
+</html>
