@@ -1,0 +1,14 @@
+.about {
+    text-align: center;
+    padding-bottom: 230px;
+    margin-bottom: 46px;
+    &__pre-title {
+        font-size: 72px;
+        margin-bottom: 31px;
+    }
+    &__title {
+        margin: 0 0 125px 0;
+        font-weight: bold;
+        font-size: 150px;
+    }
+}

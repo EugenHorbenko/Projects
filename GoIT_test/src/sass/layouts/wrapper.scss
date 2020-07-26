@@ -1,0 +1,23 @@
+main {
+  font-size: 14px;
+}
+.wrapper {
+  max-width: $main-width;
+  margin: auto;
+}
+
+.banner-wrapper {
+  background-image: url('/images/layouts/main/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-wrapper-grad {
+  background: rgb(239, 216, 137);
+  background: linear-gradient(
+    0deg,
+    rgba(239, 216, 137, 0.9) 0%,
+    rgba(231, 129, 130, 0.9) 100%
+  );
+  
+}

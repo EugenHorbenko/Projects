@@ -1,0 +1,22 @@
+.services-item__img {
+    fill: $services-color;
+    width: 32px;
+    height: 32px;
+}
+
+.nav__img {
+    height: 18px;
+    width: 18px;
+    fill: $text-color-light;
+    &:hover {
+        @extend %transition;
+        fill: $text-color-hover;
+    }
+}
+
+.team-item__social-icon {
+    fill: $icon-color;
+    height: 26px;
+    width: 26px;
+}
+

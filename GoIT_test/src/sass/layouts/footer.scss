@@ -1,0 +1,32 @@
+.footer {
+    border-top: solid 1px $footer-border-color;
+    margin-bottom: 11px;
+    &__copyright {
+        font-weight: 600;
+    }
+    &__copyrighter-link {
+        text-decoration: none;
+        color: $icon-color;
+    }
+    &__content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        
+    }
+    &__subscribe-form input {
+        height: $button-height;
+        border: 1px solid $footer-border-color;
+        outline: none;
+        padding-left: 12px;
+        &::placeholder {
+            color: $footer-border-color;
+            
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+}
+
