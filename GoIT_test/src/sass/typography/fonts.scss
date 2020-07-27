@@ -1,21 +1,22 @@
 main {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section-pre-title {
-    font-family: 'Kaushan Script', cursive;
-    display: inline-block;
-    font-size: 24px;
+  font-family: 'Kaushan Script', cursive;
+  display: inline-block;
+  font-size: 24px;
 }
 
-
 .section-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .banner-wrapper {
-    color: $text-color-light;
+  color: $text-color-light;
 }
-.services-item__text, .team__text, .team-item__position {
-    font-family: 'Roboto', sans-serif;
+.services-item__text,
+.team__text,
+.team-item__position {
+  font-family: 'Roboto', sans-serif;
 }

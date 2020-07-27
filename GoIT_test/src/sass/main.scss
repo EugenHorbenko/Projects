@@ -1,18 +1,15 @@
-/*
- * Все паршалы импортировать в этот файл
- */
-
 @import 'normalize.scss';
 @import 'base.scss';
 @import 'helpers/variables.scss';
 @import 'helpers/placeholders.scss';
 @import 'typography/fonts.scss';
+@import 'layouts/title-section.scss';
 @import 'layouts/wrapper.scss';
 @import 'layouts/header.scss';
-@import 'layouts/about.scss';
 @import 'components/buttons.scss';
 @import 'layouts/team.scss';
 @import 'components/icons.scss';
 @import 'layouts/services.scss';
 @import 'components/title-underline.scss';
 @import 'layouts/footer.scss';
+@import 'components/section-container.scss';

@@ -1,11 +1,11 @@
 %absolute-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 %transition {
-    transition-duration: 200ms;
-    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }

@@ -1,33 +1,10 @@
-.about__button {
-    width: 160px;
-    height: $button-height;
-    border: solid 3px $text-color-light;
-    background-color: transparent;
-    text-transform: uppercase;
-    color: $text-color-light;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.nav__btn {
-    height: 18px;
-    width: 18px;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
-
 .footer__subscribe-btn {
-    height: $button-height;
-    width: 150px;
-    background-color: $services-color;
-    border: none;
-    color: $text-color-light;
-    font-weight: 600;
-    position: relative;
-    left: -5px;
-    
-    cursor: pointer;
-    outline: none;
+  height: $button-height;
+  width: 150px;
+  background-color: $services-color;
+  border: none;
+  color: $text-color-light;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
 }
